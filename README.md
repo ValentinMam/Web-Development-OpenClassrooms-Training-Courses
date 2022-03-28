@@ -2,12 +2,12 @@ You can clone each project : Click on "commits"
 
 # Reservia
 
-commit : c2c6bb44f5f508562ae74a42707edf18be6f83ac
-click on "<>" = Browse the repository at this point in the history
-click on "code"
-copy the https
-open a terminal
-git clone
+- commit : c2c6bb44f5f508562ae74a42707edf18be6f83ac
+- click on "<>" = Browse the repository at this point in the history
+- click on "code"
+- copy the https
+- open a terminal
+- git clone
 
 # Oh my food !
 
