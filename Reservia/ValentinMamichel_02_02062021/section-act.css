@@ -1,0 +1,80 @@
+/* css valide */
+/* exam ok */
+/*
+display flex column 
+mediaqueries width 576px
+*/
+
+/* activités */
+
+#acticontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  height: 450px;
+  width: 100%;
+  margin: 0;
+}
+#acticontainer a {
+  text-decoration: none;
+  color: black;
+}
+#acticontainer img {
+  border-radius: 20px 20px 0 0;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(1.05);
+}
+#actitittle {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.actidiv {
+  border-radius: 20px;
+  box-sizing: content-box;
+  box-shadow: 0 0 2em #f2f2f2;
+  height: 100%;
+  width: 23%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.actidiv:nth-child(2) {
+  height: 200px;
+}
+.actidiv:nth-child(3) {
+  height: 200px;
+}
+.actidiv:nth-child(5) {
+  height: 200px;
+}
+.actidiv:nth-child(6) {
+  height: 200px;
+}
+
+/* activités mediascreen 576px @media screen and (max-width: 576px*/
+@media screen and (max-width: 576px) {
+  #acticontainer {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+  }
+  .actidiv {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #actitittle {
+    margin-left: 20px;
+  }
+  .actidiv h2 {
+    padding-left: 10px;
+  }
+}

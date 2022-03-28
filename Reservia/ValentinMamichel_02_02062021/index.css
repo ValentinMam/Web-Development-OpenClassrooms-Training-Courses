@@ -1,0 +1,33 @@
+/* css valide */
+/* exam ok */
+/* css file */
+html {
+  display: flex;
+  justify-content: center;
+}
+body {
+  width: 1140px;
+  margin: auto;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+}
+p {
+  font-size: 1em;
+}
+h1 {
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+/* mediascreen 576px */
+@media screen and (max-width: 576px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}

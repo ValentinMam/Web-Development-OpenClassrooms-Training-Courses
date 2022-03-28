@@ -1,0 +1,28 @@
+/* css valide */
+/* exam ok */
+/* footer */
+
+#mentionscontainer {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: max-content;
+  background-color: #f2f2f2;
+}
+.men {
+  list-style: none;
+  width: 33%;
+  line-height: 2em;
+}
+/* footer mediascreen 576px @media screen and (max-width: 576px*/
+@media screen and (max-width: 576px) {
+  #mentionscontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .men {
+    width: 80%;
+  }
+}
