@@ -1,0 +1,19 @@
+{
+  "name": "p5-dev-web-kanap",
+  "version": "1.0.0",
+  "description": "openclassrooms project 5 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinMam/ValentinMamichel_05_01102021.git"
+  },
+  "author": "Valentin Mamichel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValentinMam/ValentinMamichel_05_01102021/issues"
+  },
+  "homepage": "https://github.com/ValentinMam/ValentinMamichel_05_01102021#readme"
+}
