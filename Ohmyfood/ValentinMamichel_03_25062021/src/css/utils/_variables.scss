@@ -1,0 +1,24 @@
+/* convention color */
+
+$color-primary: #9356dc; /* CHANGER POUR DEMO */
+$color-secondary: #ff79da;
+$color-tertiary: #99e2d0;
+
+/* custom color */
+
+$color-white: #fff;
+$color-background: #f6f6f6;
+$color-backgrounddarker: #eaeaea;
+$color-icon: #7e7e7e;
+$color-backgroundnew: #99e2d0;
+$color-new: #088c6c;
+$color-footer: #353535;
+
+$color-gradient: linear-gradient(
+  180deg,
+  rgba(255, 121, 218, 1) 0%,
+  rgba(147, 86, 220, 1) 100%
+);
+
+/* responsive mediascren */
+$media-small: 576px;

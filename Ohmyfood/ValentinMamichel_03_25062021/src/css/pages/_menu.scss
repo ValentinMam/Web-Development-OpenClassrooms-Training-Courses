@@ -1,0 +1,121 @@
+/* background photo */
+
+.img__background > img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* menu */
+.menu__container {
+  background-color: $color-background;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  position: relative;
+  top: -5rem;
+}
+.menu__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__name {
+  margin-left: 20px;
+}
+
+/* menu__dish */
+
+/* menu__command */
+
+.bloc__name {
+  margin-left: 20px;
+}
+.grid__command {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.component_test {
+  width: 100%;
+  animation: fadein 4s ease-in-out;
+}
+
+.icon_test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-tertiary;
+  width: 50px;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: absolute;
+  padding: 20px;
+  right: -50px;
+  top: 0;
+  opacity: 0;
+  transition: transform 330ms ease-in-out;
+}
+.icon_test .fa-check-circle {
+  color: $color-white;
+  transition: transform 500ms ease-in-out;
+}
+
+.element_test {
+  background-color: $color-white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 6px #aaa;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: padding-right 450ms ease-in-out;
+}
+.element_test:hover {
+  padding-right: 75px;
+}
+.element_test:hover .icon_test {
+  opacity: 1;
+  transform: translate(-50px);
+}
+.element_test:hover .fa-check-circle {
+  transform: rotate(360deg);
+}
+
+.line_test {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.5em;
+}
+
+.line_test p {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.line_test span {
+  margin-right: 5px;
+}
+
+.element_test h4 {
+  margin: 0;
+}
+
+.bloc__name::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0.5rem;
+  background-color: $color-tertiary;
+}

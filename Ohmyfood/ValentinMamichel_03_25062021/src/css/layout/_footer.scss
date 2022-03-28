@@ -1,0 +1,26 @@
+/* footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-footer;
+}
+
+.footer__icon {
+  margin-right: 20px;
+  color: $color-white;
+}
+
+footer a {
+  color: $color-white;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer__mentions {
+  display: flex;
+  align-items: center;
+}

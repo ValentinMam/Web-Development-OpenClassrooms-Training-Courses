@@ -1,0 +1,44 @@
+/*animation 3*/
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+div {
+  border-radius: 20px;
+}
+.entree {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  background-color: #9356dc;
+}
+
+.plat {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  background-color: #ff79da;
+}
+
+.dessert {
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  background-color: #99e2d0;
+}
+
+div {
+  animation-name: appear;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

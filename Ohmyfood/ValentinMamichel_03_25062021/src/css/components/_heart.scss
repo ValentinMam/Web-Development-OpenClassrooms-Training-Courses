@@ -1,0 +1,25 @@
+svg {
+  width: 30px;
+  height: 30px;
+}
+.heart {
+  cursor: pointer;
+}
+
+.full-heart {
+  fill: transparent;
+}
+.empty-heart {
+  margin-right: -35px;
+}
+
+.full-heart:hover {
+  fill: url(#heart-gradient);
+  animation-name: heartappear;
+  animation-duration: 1s;
+}
+
+.empty-heart:hover {
+  opacity: 0;
+  transition: 1s;
+}

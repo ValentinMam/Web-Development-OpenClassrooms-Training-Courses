@@ -1,0 +1,7 @@
+.presentation__button,
+.command__button {
+  @include button-style;
+  &:hover {
+    @include button-hover;
+  }
+}

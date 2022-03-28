@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--"en" par défaut DOCTYPE mais si document en francais <html lang="fr">-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--pour les caractères, encodage exemple: « Ã © » au lieu de « é »-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--pour etre à jour, pas de bascule vers une version antérieure IE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--pour le responsive design-->
+    <script
+      src="https://kit.fontawesome.com/a5af0f157b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js icônes du kit fontawesome <i class="">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./build/style.css" />
+
+    <title>La note enchantée</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__icon">
+        <a href="accueil.html">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+      </div>
+      <div class="header__logo">
+        <a href="index.html">
+          <h1>ohmyfood</h1>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="img__background">
+        <img src="./src/img/menus/menu-2.jpg" alt="lanoteenchantee" />
+      </div>
+      <section class="menu__container">
+        <div class="menu__header">
+          <h2 class="menu__name">La note enchantée</h2>
+          <div class="menu__like">
+            <svg
+              class="heart empty-heart"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="far"
+              data-icon="heart"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
+              ></path>
+            </svg>
+            <svg
+              class="heart full-heart"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fas"
+              data-icon="heart"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+            >
+              <path
+                d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+              ></path>
+              <defs>
+                <lineargradient
+                  id="heart-gradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
+                  <stop offset="0%" stop-color="#9356dc"></stop>
+                  <stop offset="100%" stop-color="#ff79da"></stop>
+                </lineargradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="grid__container">
+          <!-- starters-->
+          <div class="grid__bloc">
+            <h3 class="bloc__name">Entrées</h3>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Ravioles de foie gras</h4>
+                <div class="line_test">
+                  <p>Accompagnés de leur crème à la truffe</p>
+                  <span>
+                    <strong>25€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Caviar osciètre</h4>
+                <div class="line_test">
+                  <p>Sur blini à la farine de blé noir</p>
+                  <span>
+                    <strong>35€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Homard et espuma de potiron</h4>
+                <div class="line_test">
+                  <p>Mariné aux zestes d'orange</p>
+                  <span>
+                    <strong>20€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Foie gras de canard cuit entier</h4>
+                <div class="line_test">
+                  <p>Confiture de figue et pain toasté</p>
+                  <span>
+                    <strong>35€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- hot dishes-->
+          <div class="grid__bloc">
+            <h3 class="bloc__name">Plats</h3>
+
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Noix de coquilles Saint-Jacques</h4>
+                <div class="line_test">
+                  <p>Sur lit de purée de céleri-rave</p>
+                  <span>
+                    <strong> 40€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Langoustine poêlée</h4>
+                <div class="line_test">
+                  <p>Purée de patate douce</p>
+                  <span>
+                    <strong>35€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Mijoté de queue de boeuf</h4>
+                <div class="line_test">
+                  <p>Et riz sauvage aux zestes de citron</p>
+                  <span>
+                    <strong>44€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- desserts-->
+          <div class="grid__bloc">
+            <h3 class="bloc__name">Desserts</h3>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Macaron noisette et chocolat</h4>
+                <div class="line_test">
+                  <p>Glace au caramel brun et sel de Guérande</p>
+                  <span>
+                    <strong> 18€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Baba au rhum revisité</h4>
+                <div class="line_test">
+                  <p>Avec son coulis de citron</p>
+                  <span>
+                    <strong>22€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="component_test">
+              <div class="element_test">
+                <h4>Tarte au citron meringuée</h4>
+                <div class="line_test">
+                  <p>Déstructurée</p>
+                  <span>
+                    <strong>23€</strong>
+                  </span>
+                </div>
+                <div class="icon_test">
+                  <span><i class="fas fa-check-circle fa-2x"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid__command">
+            <div class="command__button">Commander</div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer identique pour les pages menus copier coller accueil.html-->
+
+    <footer>
+      <a href="/accueil.html">
+        <h3 class="footer__header">ohmyfood</h3>
+      </a>
+      <div class="footer__container">
+        <ul>
+          <li class="footer__mentions">
+            <div class="footer__icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h4 class="footer__text">
+              <a href="#">Proposer un restaurant</a>
+            </h4>
+          </li>
+
+          <li class="footer__mentions">
+            <div class="footer__icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h4 class="footer__text">
+              <a href="#">Devenir partenaire</a>
+            </h4>
+          </li>
+
+          <li class="footer__mentions">
+            <h4 class="footer__text">
+              <a href="#">Mentions légales </a>
+            </h4>
+          </li>
+
+          <li class="footer__mentions">
+            <h4 class="footer__text">
+              <a href="mailto:contact@ohmyfood.com">Contact</a>
+            </h4>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

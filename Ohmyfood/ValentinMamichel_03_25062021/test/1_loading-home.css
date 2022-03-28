@@ -1,0 +1,41 @@
+/*animation 1*/
+
+header {
+  background-color: #9356dc;
+  height: 100px;
+}
+
+footer {
+  background-color: #99e2d0;
+  height: 100px;
+}
+
+.loading {
+  display: grid;
+  justify-content: center;
+}
+
+.loading-1,
+.loading-2,
+.loading-3 {
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  animation: rotate-center 2s ease-in-out both;
+  margin: 10px;
+}
+
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+    background-color: #9356dc;
+  }
+  50% {
+    background-color: #ff79da;
+    border-radius: 50%;
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color: #99e2d0;
+  }
+}

@@ -1,0 +1,55 @@
+/* directory utils */
+/* no extensions */
+/* directory vendors-empty folder */
+/* directory base */
+/* READY TO START */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  /* easier to convert than 16px */
+  font-size: 10px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* READY TO START */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  font-style: italic;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.75rem;
+}
+
+h3 {
+  font-family: "Shrikhand";
+  font-size: 3rem;
+}
+
+/* directory components */
+/* directory layout */
+/* directory pages */
+/* directory themes-empty folder */
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9jc3MvbWFpbi5zY3NzIiwiLi4vLi4vc3JjL2Nzcy91dGlscy9fZXh0ZW5zaW9ucy5zY3NzIiwiLi4vLi4vc3JjL2Nzcy9iYXNlL19iYXNlLnNjc3MiLCIuLi9zdHlsZS5jc3MiLCIuLi8uLi9zcmMvY3NzL2Jhc2UvX3R5cG9ncmFwaHkuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxvQkFBQTtBQ0FBLGtCQUFBO0FETUEsbUNBQUE7QUFFQSxtQkFBQTtBRVJBLG1CQUFBO0FBRUE7OztFQUdFLFNBQUE7RUFDQSxVQUFBO0VBQ0EsMkJBQUE7VUFBQSxtQkFBQTtBQ0lGOztBRERBO0VBQ0UsZ0NBQUE7RUFDQSxlQUFBO0FDSUY7O0FEREE7RUFDRSw4QkFBQTtVQUFBLHNCQUFBO0FDSUY7O0FDcEJBLG1CQUFBO0FBRUE7RUFDRSxpQ0FBQTtFQUNBLGVBQUE7QURzQkY7O0FDbkJBO0VBQ0UsaUNBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7RUFDQSxrQkFBQTtBRHNCRjs7QUNuQkE7RUFDRSxpQ0FBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBRHNCRjs7QUNuQkE7RUFDRSx3QkFBQTtFQUNBLGVBQUE7QURzQkY7O0FIakNBLHlCQUFBO0FBR0EscUJBQUE7QUFLQSxvQkFBQTtBQUlBLGtDQUFBIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

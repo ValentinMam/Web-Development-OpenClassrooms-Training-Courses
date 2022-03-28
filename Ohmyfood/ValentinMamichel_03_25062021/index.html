@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--"en" par défaut DOCTYPE mais si document en francais <html lang="fr">-->
+  <head>
+    <meta charset="UTF-8" />
+    <!--pour les caractères, encodage exemple: « Ã © » au lieu de « é »-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--pour etre à jour, pas de bascule vers une version antérieure IE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--pour le responsive design-->
+    <script
+      src="https://kit.fontawesome.com/a5af0f157b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js icônes du kit fontawesome <i class="">-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <!--
+      
+    -->
+    <link rel="stylesheet" href="./build/style.css" />
+
+    <!--breakpoints à définir : width=576px-->
+
+    <title>ohmyfood!</title>
+  </head>
+
+  <body>
+    <!--header identique pour les pages menus-->
+    <div class="home__loading">
+      <div class="loading-1"></div>
+      <div class="loading-2"></div>
+      <div class="loading-3"></div>
+    </div>
+    <header>
+      <div class="header__logo">
+        <a href="accueil.html">
+          <h1>ohmyfood</h1>
+        </a>
+      </div>
+    </header>
+
+    <!--sections introduction/presentation/operation/food-->
+    <main>
+      <!--introduction-->
+
+      <div class="intro__container">
+        <div class="intro__icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <p class="intro__text">Paris, Belleville</p>
+      </div>
+
+      <!--presentation-->
+      <section class="presentation">
+        <div class="presentation__container">
+          <h2 class="presentation__header">
+            Réservez le menu qui vous convient
+          </h2>
+          <p class="presentation__text">
+            Découvrez des restaurants d'exception, sélectionnés par nos soins
+          </p>
+          <p class="presentation__button">Explorer nos restaurants</p>
+        </div>
+      </section>
+
+      <!--operation-->
+      <section class="operation">
+        <h2 class="operation__header">Fonctionnement</h2>
+        <div class="operation__container">
+          <!--operation__step #1-->
+          <div class="operation__stepcontain">
+            <p class="operation__number">1</p>
+            <div class="operation__icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <p class="operation__text">Choisissez un restaurant</p>
+          </div>
+          <!--operation__step #2-->
+          <div class="operation__stepcontain">
+            <p class="operation__number">2</p>
+            <div class="operation__icon">
+              <i class="fas fa-list-ul"></i>
+            </div>
+            <p class="operation__text">Composez votre menu</p>
+          </div>
+          <!--operation__step #3-->
+          <div class="operation__stepcontain">
+            <p class="operation__number">3</p>
+            <div class="operation__icon">
+              <i class="fas fa-store"></i>
+            </div>
+            <p class="operation__text">Dégustez au restaurant</p>
+          </div>
+        </div>
+      </section>
+
+      <!--food-->
+      <section class="food">
+        <h2 class="food__header">Restaurants</h2>
+        <div class="food__container">
+          <!--food__contain #1-->
+          <a href="menu-1.html">
+            <div class="food__contain">
+              <div class="food__img">
+                <p class="food__new">Nouveau</p>
+                <img src="./src/img/menus/menu-1.jpg" alt="Lapalettedugout" />
+              </div>
+              <div class="food__presentation">
+                <div class="food__info">
+                  <p class="food__name">La palette du goût</p>
+                  <p class="food__localisation">Ménilmontant</p>
+                </div>
+                <div class="food__like">
+                  <svg
+                    class="heart empty-heart"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="far"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="heart full-heart"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                    ></path>
+                    <defs>
+                      <lineargradient
+                        id="heart-gradient"
+                        x1="0%"
+                        y1="0%"
+                        x2="0%"
+                        y2="100%"
+                      >
+                        <stop offset="0%" stop-color="#9356dc"></stop>
+                        <stop offset="100%" stop-color="#ff79da"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!--food__contain #2-->
+          <a href="menu-2.html">
+            <div class="food__contain">
+              <div class="food__img">
+                <p class="food__new">Nouveau</p>
+                <img src="./src/img/menus/menu-2.jpg" alt="Lanoteenchantee" />
+              </div>
+              <div class="food__presentation">
+                <div class="food__info">
+                  <p class="food__name">La note enchantée</p>
+                  <p class="food__localisation">Charonne</p>
+                </div>
+                <div class="food__like">
+                  <svg
+                    class="heart empty-heart"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="far"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="heart full-heart"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!--food__contain #3-->
+          <a href="menu-3.html">
+            <div class="food__contain">
+              <div class="food__img">
+                <img src="./src/img/menus/menu-3.jpg" alt="alafrançaise" />
+              </div>
+              <div class="food__presentation">
+                <div class="food__info">
+                  <p class="food__name">A la française</p>
+                  <p class="food__localisation">Cité Rouge</p>
+                </div>
+                <div class="food__like">
+                  <svg
+                    class="heart empty-heart"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="far"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="heart full-heart"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </a>
+          <!--food__contain #4-->
+          <a href="menu-4.html">
+            <div class="food__contain">
+              <div class="food__img">
+                <img src="./src/img/menus/menu-4.jpg" alt="Ledelicedessens" />
+              </div>
+              <div class="food__presentation">
+                <div class="food__info">
+                  <p class="food__name">Le délice des sens</p>
+                  <p class="food__localisation">Folie-Méricourt</p>
+                </div>
+                <div class="food__like">
+                  <svg
+                    class="heart empty-heart"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="far"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z"
+                    ></path>
+                  </svg>
+                  <svg
+                    class="heart full-heart"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="heart"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!--footer identique pour les pages menus-->
+    <footer>
+      <a href="/accueil.html">
+        <h3 class="footer__header">ohmyfood</h3>
+      </a>
+      <div class="footer__container">
+        <ul>
+          <li class="footer__mentions">
+            <div class="footer__icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h4 class="footer__text">
+              <a href="#">Proposer un restaurant</a>
+            </h4>
+          </li>
+
+          <li class="footer__mentions">
+            <div class="footer__icon">
+              <i class="fas fa-hands-helping"></i>
+            </div>
+            <h4 class="footer__text">
+              <a href="#">Devenir partenaire</a>
+            </h4>
+          </li>
+
+          <li class="footer__mentions">
+            <h4 class="footer__text">
+              <a href="#">Mentions légales </a>
+            </h4>
+          </li>
+
+          <li class="footer__mentions">
+            <h4 class="footer__text">
+              <a href="mailto:contact@ohmyfood.com">Contact</a>
+            </h4>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

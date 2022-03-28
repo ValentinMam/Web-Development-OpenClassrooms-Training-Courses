@@ -1,0 +1,42 @@
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  background-color: #99e2d0;
+  height: 300px;
+}
+
+svg {
+  width: 100px;
+  height: 100px;
+}
+
+.heart {
+  cursor: pointer;
+  position: absolute;
+}
+
+.full-heart {
+  fill: transparent;
+}
+
+.full-heart:hover {
+  fill: url(#heart-gradient);
+  animation-name: heartappear;
+  animation-duration: 1s;
+}
+
+.empty-heart:hover {
+  opacity: 0;
+  transition: 1s;
+}
+
+@keyframes heartappear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,63 @@
+/* keyframes__homepage */
+
+/* keyframe__homepage--background */
+
+@keyframes loading {
+  0% {
+    background-color: $color-white;
+  }
+
+  100% {
+    visibility: hidden;
+  }
+}
+/* keyframe__homepage--loadingspinner */
+@keyframes rotate-center {
+  0% {
+    transform: rotate(0);
+    background-color: $color-primary;
+    visibility: visible;
+  }
+  50% {
+    background-color: $color-secondary;
+    border-radius: 50%; /* CHANGER POUR DEMO */
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color: $color-tertiary;
+    visibility: hidden;
+  }
+}
+/* keyframes__menupage */
+
+/* keyframe__menupage--dish contain appear */
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* keyframe__menupage--validation icon rotate*/
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* keyframes__allpages */
+
+/* keyframes__allpages--heart appear */
+@keyframes heartappear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

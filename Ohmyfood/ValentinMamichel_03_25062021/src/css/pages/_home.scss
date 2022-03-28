@@ -1,0 +1,135 @@
+/* loading */
+
+.home__loading {
+  display: grid;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  animation: loading 3s ease-in-out both;
+}
+
+.loading-1,
+.loading-2,
+.loading-3 {
+  height: 75px;
+  width: 75px;
+
+  align-items: center;
+  animation: rotate-center 2s ease-in-out both;
+  margin: 10px;
+}
+
+/* intro */
+.intro__container {
+  background-color: $color-backgrounddarker;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.intro__icon {
+  margin-right: 20px;
+}
+/* presentation */
+.presentation__container {
+  background-color: $color-background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+/* operation */
+.operation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.operation__container {
+  width: 80%;
+}
+.operation__stepcontain {
+  background-color: $color-background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
+  &:hover {
+    @include button-hover;
+  }
+}
+.operation__number {
+  background-color: $color-primary;
+  color: $color-white;
+  position: absolute;
+  left: -30px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50%;
+}
+.operation__icon {
+  color: $color-icon;
+  margin-right: 50px;
+}
+
+/* food */
+.food {
+  background-color: $color-background;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.food__container {
+  display: grid;
+  width: 90%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.food__contain {
+  background-color: $color-white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+  &:hover {
+    @include button-hover;
+  }
+}
+
+.food__presentation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.food__new {
+  position: absolute;
+  background-color: $color-backgroundnew;
+  color: $color-new;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.food__info {
+  margin-left: 20px;
+}
+.food__name {
+  font-weight: bold;
+}
+.food__like {
+  margin-right: 20px;
+}
+.food__img > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
