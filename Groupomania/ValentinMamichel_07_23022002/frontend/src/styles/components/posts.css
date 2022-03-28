@@ -1,0 +1,73 @@
+/* POSTS.JS CSS */
+
+.container-welcome {
+  padding-top: 20px;
+  background: #0a1f43;
+
+  background: linear-gradient(to bottom, #eef3fc 0%, #0a1f43 100%);
+  box-shadow: 0px 3px 15px -1px #000000;
+  border-radius: 10px;
+  width: 85%;
+  margin: auto;
+}
+
+.background {
+  background-color: #eef3fc;
+}
+
+/* CARD.JS CSS */
+
+.card {
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px -1px #000000;
+}
+
+a:hover {
+  text-transform: none;
+}
+.card-title {
+  background-color: #0a1f43;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.profil {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.card-img-bottom {
+  height: 250px;
+  max-width: 350px;
+}
+
+#text-muted {
+  font-size: 14px;
+  color: grey;
+}
+
+.card-text {
+  font-size: 18px;
+  color: black;
+}
+
+/* FORMPOST.JS CSS */
+
+textarea {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.fileUpload {
+  margin-bottom: 10px;
+}
+
+/* POST.JS CSS */
+
+#postImage {
+  width: 300px;
+  height: auto;
+}

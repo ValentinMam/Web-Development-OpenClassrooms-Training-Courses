@@ -1,0 +1,39 @@
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+  color: white;
+  font-weight: 500;
+  border-top: 5px solid #0a1f43;
+  border-bottom: 1px solid #0a1f43;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+  border-top: 5px solid #fff3b0;
+}
+
+.nga-navbar {
+  background-color: #0a1f43;
+}
+
+.nga-navbar-logo {
+  font-weight: 700;
+}
+
+.nga-btn-navbar {
+  color: black;
+  background-color: #fff3b0;
+  border-color: #fff3b0;
+}
+
+.nga-btn-navbar:hover {
+  color: #fff;
+  background-color: #d1515a;
+  border-color: #d1515a;
+}
+
+.nga-logo {
+  font-weight: 700;
+}
+
+.nga-footer {
+  background-color: black;
+  color: #fff;
+}
