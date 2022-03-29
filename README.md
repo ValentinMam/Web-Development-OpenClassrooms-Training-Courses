@@ -1,6 +1,7 @@
 You can clone each project : Click on "commits"
 
-# Reservia
+# Reservia ✈
+✅HTML 5 / CSS 3 
 
 - commit : c2c6bb44f5f508562ae74a42707edf18be6f83ac
 - click on "<>" = Browse the repository at this point in the history
@@ -9,7 +10,8 @@ You can clone each project : Click on "commits"
 - open a terminal
 - git clone
 
-# Oh my food !
+# Oh my food ! 🍽
+✅SASS 
 
 - commit : 8e7152ad60306ba2436b66665a085db3df518c73
 - click on "<>" = Browse the repository at this point in the history
@@ -18,7 +20,8 @@ You can clone each project : Click on "commits"
 - open a terminal
 - git clone
 
-# La chouette agence
+# La chouette agence 🦉
+✅SEO
 
 - commit : bbe9e7ba0691de896cafe03897b18987bc41acc8
 - click on "<>" = Browse the repository at this point in the history
@@ -27,7 +30,8 @@ You can clone each project : Click on "commits"
 - open a terminal
 - git clone
 
-# Kanap
+# Kanap 🛋
+✅JAVASCRIPT - FrontEnd
 
 - commit : b8a26c047fa429b9cf94ada9bd50d1d703dc94dc
 - click on "<>" = Browse the repository at this point in the history
@@ -36,7 +40,8 @@ You can clone each project : Click on "commits"
 - open a terminal
 - git clone
 
-# Piiquante
+# Piiquante 🧂
+✅JAVASCRIPT - BackEnd
 
 - commit : 5e828c6d57561f18925e76a89a298bec7bb448d6
 - click on "<>" = Browse the repository at this point in the history
@@ -45,7 +50,9 @@ You can clone each project : Click on "commits"
 - open a terminal
 - git clone
 
-# Groupomania
+# Groupomania 🌐
+✅REACT - FrontEnd + BackEnd 
+➡ANGULAR - FrontEnd 
 
 - commit : 13f2585be6b3a10b5f9a9b28d779add66d9bc365
 - click on "<>" = Browse the repository at this point in the history
